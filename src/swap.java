@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Scanner;
 
 public class swap {
@@ -7,7 +8,7 @@ public class swap {
         int a=s.nextInt();
         System.out.println("Enter b");
         int b=s.nextInt();
-        int temp=0;
+        int temp;
 
         temp=a;
         a=b;
